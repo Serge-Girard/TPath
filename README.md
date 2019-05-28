@@ -10,7 +10,7 @@ Les fichiers SVG que vous pourrez traiter je les trouve surtout à cette adresse
 Sur l'image vous retrouvez le SVG proposé par Jim McKeeth dans son blog http://delphi.org/2019/02/delphis-big-day-with-a-little-svg-fun/
 Ce programme a été réalisé avec la version 10.3.1 de Delphi je ne suis pas sûr qu'elle soit rétro-compatible mais ce n'est qu'à partir de la version Seattle qu'apparaissent certaines unités nécessaires 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Serge-Girard/TPath/blob/master/Capture_1.PNG)
 
 This program, I wrote it mostly in order to test the possibilities of the TPath component. The genesis of this little test had nothing to do with a customization of image, my goal was to see what TPath could bring me, I wanted to use this component less greedy in bytes than a list of image within of a style. One thing or another, in an attempt to break through the different possibilities, from a simple display of a TPath with the entry of the Data property in a memo I switched to coloring, saving and even loading an SVG file ( be careful a simple file, the goal is not to make an SVG file reader). The colorization pushed me to create my color dialog (not so obvious as this thing) and to study the gradients closely, consider it a bonus. 
  

@@ -1,0 +1,604 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'D'#233'monstration TPath '
+  ClientHeight = 553
+  ClientWidth = 697
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object btnSave: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Sauver'
+    OnClick = btnSaveClick
+  end
+  object PathContainer: TLayout
+    Padding.Left = 1.000000000000000000
+    Padding.Top = 1.000000000000000000
+    Padding.Right = 1.000000000000000000
+    Padding.Bottom = 1.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 76.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Path1: TPath
+      Align = Client
+      Data.Path = {
+        D6000000000000007DFFF9435CAF3943020000002556FA43C71B8D4302000000
+        93A8CD4387F69D430200000068D1B043D172B2430200000042709643142EC543
+        0200000004B67F432180DF43020000001F457A43F42DEA4302000000BAE97343
+        3148DF4302000000A05A4B43FAAEC54302000000B85E124352F8B24302000000
+        2731AF4250AD9F430200000083C02ABF6FA28D43020000006F12833BEEBC3A43
+        020000005A649B3F9A992F410200000027B13943CF7716C202000000F6687A43
+        54A3E34202000000B6139C43E3A5FCC1020000005463F9430AD7174102000000
+        7DFFF9435CAF3943030000007DFFF9435CAF394300000000F2925343C510BB43
+        02000000E3656043C510BB430200000052F86F4344FBBB4302000000DFAF8043
+        42D0BD430100000039448543CB91B54301000000A03A8043D793AA4302000000
+        4C77754358A9A94302000000D7636B431934A94302000000602563431934A943
+        020000003B3F4C431934A943020000003F95484314DEAC43020000003F954843
+        14DEAC4301000000CFD73A43C3E5BC43020000004A6C3F4344FBBB4302000000
+        C1AA4743C510BB4302000000F2925343C510BB4303000000F2925343C510BB43
+        0000000077FE4E4314DEAC4302000000E9E65A431709AB430200000096036743
+        58B9AA4302000000D5386D4396F3AB4302000000DDE46543D793AA4302000000
+        73A8524393C8AD430200000073A8524393C8AD430100000044EB4443C966B743
+        0300000077FE4E4314DEAC4300000000B87E2F436FC29E4301000000E9260C43
+        1BEFA2430200000019040E43F46DA5430200000000800F43F648A74302000000
+        A09A10430080A8430200000081B511430AB7A9430200000093781343566EAB43
+        020000005AE4154304A6AD430100000023BB3643CBE1A44303000000B87E2F43
+        6FC29E430000000046B629439EBF954301000000BC14044389D1914302000000
+        4C9704435E1A944302000000140E0543AAD1954302000000D57805438DF79643
+        02000000D7E30543711D9843020000009AB9064373F89943020000001DFA0743
+        73889C4301000000088C2D4348619C4302000000F8932C43BA099B4302000000
+        04D62B43C3059A43020000002D522B431F5599430200000056CE2A439CA49843
+        020000001F452A43D17297430200000046B629439EBF95430300000046B62943
+        9EBF954300000000F8B327431FC58743010000007FEA04439CE4794302000000
+        960304431273804302000000FE740343080C834302000000FA3E03430EBD8443
+        02000000F6080343146E864302000000F60803438DD7884302000000FA3E0343
+        79F98B43010000008F4228430060924302000000C1CA27436616904302000000
+        968327431B5F8E4302000000CD6C2743FC398D430200000004562743FE148C43
+        02000000916D274354438A4302000000F8B327431FC5874303000000F8B32743
+        1FC5874300000000088C2D437FAA77430100000037291143FC89514302000000
+        B6930E437969574302000000D5B80C43FEF45B430200000052980B430E2D5F43
+        02000000CF770A43DD64624302000000B61309434220674302000000C76B0743
+        775E6D4301000000BA892843854B85430200000027712943A2F5824302000000
+        1B2F2A43353E81430200000096C32A43812580430200000052582B439A197E43
+        02000000E3452C439A397B4302000000088C2D437FAA774303000000088C2D43
+        7FAA774300000000B83E3E4389815D4301000000AA7131437B74244302000000
+        58F92A4352182B4302000000353E26433D4A304302000000004023433D0A3443
+        02000000CB412043FCC9374302000000088C1C43852B3D4302000000351E1843
+        562E444301000000B87E2F438736734302000000E9663243CBE16D4302000000
+        C5A0344339146A4302000000CD2C364391CD67430200000093B837432B876543
+        0200000037693A435218624302000000B83E3E4389815D4303000000B83E3E43
+        89815D4300000000BE3F5E436085474301000000B87E6A433FD5004302000000
+        75F35E43F8D3054302000000F2525643B4E8094302000000EE9C5043F8130D43
+        02000000E9E64A433B3F104302000000E5504443649B144302000000A0DA3C43
+        73281A430100000019244243FE54594302000000587948436F32544302000000
+        4A4C4D433994504302000000EE9C50435E7A4E430200000091ED534383604C43
+        0200000058795843D90E4A4302000000BE3F5E436085474303000000BE3F5E43
+        6085474300000000029B8243E365414301000000D9CE9543D94EF44202000000
+        10289043AC9CF2420200000000C08B43713DF24202000000C9968843AA31F342
+        02000000916D8543E325F44202000000FE3481435C8FF642020000005EDA7743
+        146EFA420100000066A66443EEBC44430200000017796C4373E8424302000000
+        2751724385CB414302000000D92E7643E3654143020000008B0C7A4383004143
+        02000000D90E7F438300414302000000029B8243E365414303000000029B8243
+        E36541430000000027C19543C9964D4301000000DD74B8437533134302000000
+        AE77B443ECD10D4302000000B062B043F45D0943020000000436AC438DD70543
+        020000005809A843275102430200000017B9A343CBE1FE42020000003F459F43
+        146EFA4201000000273187434AEC42430200000033438943858B434302000000
+        AEE78B43C500454302000000B81E8F43084C47430300000027C19543C9964D43
+        00000000A02A9C4344FBBB430200000060B59B434626BA4302000000640B9843
+        981EAA4302000000B4D88943440BA043020000007563894304969F4302000000
+        DD8482430A179A430200000042A07E43CFF7954301000000CD8C74434EE29643
+        010000002D429043D783C64302000000AA0193435899C5430200000060B59B43
+        1D7AC14302000000A02A9C4344FBBB4303000000A02A9C4344FBBB4300000000
+        B29DA743DD248943010000003709A3433B7F594301000000DDE46543982E8E43
+        010000005AA468435238934303000000B29DA743DD2489430000000054236F43
+        500D9543010000005EFA6543CFF79543010000006250624319448D4301000000
+        5E0A9E4337295D4302000000E7CB95430A974D4302000000F4CD8A4354834343
+        0200000060458043548343430200000075D351435483434302000000E15A2B43
+        29FC694302000000E15A2B439A598C4302000000E15A2B430C42984302000000
+        566E35431FB5A34302000000C3D54643567EAB4302000000C1AA4843981EAA43
+        02000000BA294E43DBE9A64302000000DF0F6543DBE9A64302000000564E6D43
+        DBE9A643020000004C7776431B5FA74302000000A0BA80439A49A84303000000
+        54236F43500D954300000000C5004443DF3FA34302000000F83316439AB97743
+        0200000060256343442B524302000000D5386D4348814E4302000000DF0F6443
+        442B524302000000F2B21B4312237E43020000003D6A4A4321E0A14302000000
+        C1AA4743A0CAA24302000000C50044431FB5A34302000000C5004443DF3FA343
+        03000000C5004443DF3FA343}
+      Fill.Color = claRed
+      Size.Width = 198.000000000000000000
+      Size.Height = 198.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Join = Bevel
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Sauvegarde du r'#233'sultat'
+    Left = 272
+    Top = 8
+  end
+  object Largeur: TTrackBar
+    CanParentFocus = True
+    Max = 200.000000000000000000
+    Orientation = Horizontal
+    Position.X = 20.000000000000000000
+    Position.Y = 274.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    OnChange = LargeurChange
+  end
+  object Hauteur: TTrackBar
+    CanParentFocus = True
+    Max = 200.000000000000000000
+    Orientation = Vertical
+    Position.X = 221.000000000000000000
+    Position.Y = 76.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    OnChange = HauteurChange
+  end
+  object btnLien: TSpeedButton
+    Images = ImageList1
+    ImageIndex = 0
+    Position.X = 220.000000000000000000
+    Position.Y = 274.000000000000000000
+    Size.Width = 24.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = btnLienClick
+  end
+  object LabelTaille: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Largeur 200  Hauteur 200 '
+    TabOrder = 13
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = 'SVG'
+    Filter = 'Fichier SVG|*.svg'
+    Title = 'Charger un fichier SVG'
+    Left = 176
+    Top = 360
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    TextSettings.WordWrap = True
+    OnChangeTracking = Memo1ChangeTracking
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.Y = 432.000000000000000000
+    Size.Width = 697.000000000000000000
+    Size.Height = 121.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Viewport.Width = 693.000000000000000000
+    Viewport.Height = 117.000000000000000000
+  end
+  object Text1: TText
+    Anchors = [akLeft, akTop, akRight]
+    Position.Y = 400.000000000000000000
+    Size.Width = 698.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'TPath.Data.Data'
+    TextSettings.HorzAlign = Leading
+    object btnLoad: TButton
+      Position.X = 104.000000000000000000
+      RotationAngle = 180.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'escapetoolbutton'
+      TabOrder = 0
+      Text = 'Button1'
+      OnClick = btnLoadClick
+    end
+    object Text2: TText
+      Align = Right
+      Position.X = 209.000000000000000000
+      Size.Width = 489.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Vous trouverez des fichiers sur http://materialdesignicons.com/'
+    end
+  end
+  object btnRepaint: TButton
+    Anchors = [akRight, akBottom]
+    Position.X = 617.000000000000000000
+    Position.Y = 523.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'Redessiner'
+    Visible = False
+    OnClick = btnRepaintClick
+  end
+  object TabControl1: TTabControl
+    Position.X = 304.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 369.000000000000000000
+    Size.Height = 385.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 23
+    TabPosition = Dots
+    OnChange = TabControl1Change
+    Sizes = (
+      369s
+      385s
+      369s
+      385s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ColorDialogue: TGroupBox
+        Align = Top
+        Size.Width = 369.000000000000000000
+        Size.Height = 361.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'groupboxstyle'
+        Text = 'Dialogue Couleur'
+        TabOrder = 0
+        object ColorBox1: TColorBox
+          Color = claBlack
+          Position.X = 311.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 26.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object ColorPicker1: TColorPicker
+          ColorQuad = ColorQuad1
+          Position.X = 175.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 26.000000000000000000
+          Size.Height = 129.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object ColorQuad1: TColorQuad
+          Alpha = 1.000000000000000000
+          ColorBox = ColorBox1
+          Position.X = 8.000000000000000000
+          Position.Y = 62.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 131.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          OnChange = ColorQuad1Change
+        end
+        object Remplissage: TComboBox
+          Items.Strings = (
+            'Linear (de gauche '#224' droite)'
+            'Radial (centr'#233')')
+          ItemIndex = 0
+          Position.X = 8.000000000000000000
+          Position.Y = 224.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          OnChange = RemplissageChange
+        end
+        object GradientChkBox: TCheckBox
+          Position.X = 9.000000000000000000
+          Position.Y = 202.000000000000000000
+          TabOrder = 4
+          Text = 'Utiliser Gradient'
+          OnChange = GradientChkBoxChange
+        end
+        object GradientEdit1: TGradientEdit
+          ColorPicker = ColorPicker1
+          Position.X = 8.000000000000000000
+          Position.Y = 248.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          OnChange = GradientEdit1Change
+        end
+        object Objet: TComboBox
+          Items.Strings = (
+            'Fill       (int'#233'rieur) '
+            'Stroke (bordures)')
+          ItemIndex = 0
+          Position.X = 8.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          OnChange = ObjetChange
+        end
+        object AngleGradient: TArcDial
+          Position.X = 176.000000000000000000
+          Position.Y = 280.000000000000000000
+          ShowValue = True
+          TabOrder = 7
+          Value = 90.000000000000000000
+          OnChange = AngleGradientChange
+          object Label2: TLabel
+            Position.X = -160.000000000000000000
+            Position.Y = 5.000000000000000000
+            Text = 'Angle Gradient'
+            TabOrder = 0
+          end
+        end
+        object Epaisseur: TComboTrackBar
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 8
+          Cursor = crIBeam
+          DecimalDigits = 3
+          Value = 1.000000000000000000
+          KeyboardType = NumberPad
+          Frequency = 0.000000000000000000
+          Position.X = 97.000000000000000000
+          Position.Y = 317.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          Visible = False
+          OnChange = EpaisseurChange
+          object Label3: TLabel
+            Position.X = -90.000000000000000000
+            Position.Y = 2.000000000000000000
+            Size.Width = 89.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Epaisseur'
+            TabOrder = 0
+          end
+        end
+        object ColorAlpha: TComboTrackBar
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 9
+          Cursor = crIBeam
+          DecimalDigits = 4
+          Max = 1.000000000000000000
+          ValueType = Float
+          KeyboardType = NumberPad
+          Position.X = 248.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = ColorAlphaChange
+          object Label5: TLabel
+            Position.X = -2.000000000000000000
+            Position.Y = -19.000000000000000000
+            Size.Width = 99.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Transparence'
+            TabOrder = 0
+          end
+        end
+        object RotationDial: TArcDial
+          Position.X = 176.000000000000000000
+          Position.Y = 280.000000000000000000
+          ShowValue = True
+          Size.Width = 29.000000000000000000
+          Size.Height = 29.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Visible = False
+          OnChange = RotationDialChange
+          object Label1: TLabel
+            Position.X = -159.000000000000000000
+            Position.Y = 5.000000000000000000
+            Text = 'Angle de Rotation'
+            TabOrder = 0
+          end
+          object PositionRotation: TComboBox
+            Items.Strings = (
+              'Coin haut gauche'
+              'Haut centre'
+              'Coin haut droit'
+              'Bord gauche centre'
+              'Centre'
+              'Bord droit centre'
+              'Coin bas gauche'
+              'Bas centre'
+              'Coin bas droit ')
+            ItemIndex = 0
+            Position.X = 40.000000000000000000
+            Position.Y = 4.000000000000000000
+            Size.Width = 129.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            OnChange = PositionRotationChange
+          end
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object GroupBox1: TGroupBox
+        Align = Top
+        Size.Width = 369.000000000000000000
+        Size.Height = 337.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Dialogue bitmap'
+        TabOrder = 0
+        object ComboBox1: TComboBox
+          Items.Strings = (
+            'Or'
+            'Vert'
+            'Eau'
+            'Cuir')
+          Position.X = 32.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnChange = ComboBox1Change
+          object Label4: TLabel
+            Position.Y = -17.000000000000000000
+            Text = 'dans les ressources'
+            TabOrder = 0
+          end
+        end
+        object Path2: TPath
+          Data.Path = {
+            0500000000000000000000000000000001000000000000000000204101000000
+            0000204100002041010000000000204100000000030000000000000000000000}
+          Fill.Bitmap.WrapMode = Tile
+          Fill.Kind = Bitmap
+          Position.X = 32.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 150.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Bitmap.WrapMode = Tile
+          Stroke.Kind = Bitmap
+          Stroke.Join = Bevel
+        end
+        object btnAppliquer: TButton
+          Position.X = 80.000000000000000000
+          Position.Y = 272.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'composetoolbuttonbordered'
+          TabOrder = 2
+          Text = 'Button1'
+          OnClick = btnAppliquerClick
+        end
+        object BtnLoadBitmap: TButton
+          Position.X = 224.000000000000000000
+          Position.Y = 40.000000000000000000
+          StyleLookup = 'searchtoolbuttonbordered'
+          TabOrder = 3
+          Text = 'BtnLoadBitmap'
+          OnClick = BtnLoadBitmapClick
+          object Label6: TLabel
+            Position.Y = -17.000000000000000000
+            Text = #224' partir d'#39'un fichier'
+            TabOrder = 0
+          end
+        end
+      end
+    end
+  end
+  object ImageList1: TImageList
+    Source = <
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01AA494441545847ED964B2E054114869B4404134608532B9010164198DA80D7
+              D044620B8CD8036260849D1076E031F0181848F8BFD295B4DCAABAAAFBF4ACBF
+              E44BDFEAAED4A9AE537D6E151D1D86CCCA23792F3FE58BBC91EB7240B6CA9A7C
+              97DF112FE5A86C850DF925097426E7E5B09C949BF251FA4998AFC48AF4C1F7B9
+              11604E3E49FA900E3366E48764E0036E24D896F4BB762D23D8700C7AE15A6998
+              2C7D5909331E24832EB9569A11495FBE0E33188C41C75CAB28A6E4CEEFCF1E16
+              257D6F5DCB8867C92AB0E309CEE004094D8234F1ECD0B58C3891149F6A70AEB4
+              ABB04179F62AA7B9914BA8C21D4BE8179C4F93677CAA7CB2D9842A1CCB1E7BF3
+              21494A16E4B9F4C12956D9C42A1C4142C19994FF32BC6F72556693AA70A1E040
+              5AD898A4E94EB2E16AE53C55E1626FCE8634C357B853D7FACBAEAC0627252C3B
+              6F6E86CF23390FC124FCB28F4BFAB652E178BB7E2C4BBF22B5182CAF55C83F4C
+              94D7147BE5F5AABC9AC0318AB7DA72AD388D2B5C0C0E0D0CCC5F278789108D2B
+              5C0A8E4D1C9F08C0718A6395DFF12615EE3F7080F4930859BBC2E5C04AF05FC0
+              318A7434AE701D1DBD14C50F9A309383772FBFFC0000000049454E44AE426082}
+            FileName = 'D:\XE8\FMX\icons8-lien-filled-32.png'
+          end>
+        Name = 'icons8-lien-filled-32'
+      end
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01C8494441545847ED96494AC44014865B14175E404574E7015470AF0770C0A5
+              0750D10B487B01C1E11AE24611877B38E2091CC085C3C285A0FF57F6832226D5
+              55D1D89B7CF041577525EF9154DEAB464DCD1F322477E4AD7C974FF24CCECB2E
+              592973F2557E167828FB6432AB72E0FB67218BF24312684F8EC95ED92F97E4A3
+              E4BF039904C1B9F046162531232DF83A13398C4A4B82F5D11094E045490CCB37
+              C9FF1B4C045891AC3B76A3044249EC4AE68FDC280CAF83B5F76E94889FC41A13
+              2DAE2473536E14863DC1DA17372A0149F8C1A15B8EC81E370A332149E0DC8D3A
+              C0BE24814D37FA67D8A0047F96834CA4C263A6C25D4A1E7B2C54BFA624389F6A
+              D227682C48BFC2914C3BD813D3F2545A708A55327E853B91DC3466C391A425CC
+              AEA71724E357381E634A33E1355D485E1B0D2A192E8AAD7095B02D094E63E908
+              D79204C6DD280C7B82779EFD3A62BA6821F6F8299FEDA00CB3964FD488E9A241
+              1E2437A081846063D2DD58BBC5440BBF77944AC26ECA6122845538EA4476B7FF
+              2A8959C9851C22384CE4C1E18335A10AE727916D644178B41C9F2C8965C9CDD8
+              1393D21A4B4C85E3BAA4E00607484B224F1A0B4FAA7208C289E74EF2AEE9E7B4
+              D4525DADA6E6278DC617AE37840A4FD06DB70000000049454E44AE426082}
+            FileName = 'D:\XE8\FMX\icons8-lien-bris'#233'-32.png'
+          end>
+        Name = 'icons8-lien-bris'#233'-32'
+      end>
+    Destination = <
+      item
+        Layers = <
+          item
+            Name = 'icons8-lien-filled-32'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'icons8-lien-bris'#233'-32'
+          end>
+      end>
+    Left = 237
+    Top = 290
+  end
+  object FileOpen: TOpenDialog
+    Title = 'Fichier image'
+    Left = 664
+    Top = 40
+  end
+end

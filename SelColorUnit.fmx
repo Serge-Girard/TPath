@@ -1,0 +1,51 @@
+object FormSelectColor: TFormSelectColor
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = Single
+  Caption = 'S'#233'lection de la couleur de fond '
+  ClientHeight = 230
+  ClientWidth = 356
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ColorListBox1: TColorListBox
+    Position.X = 24.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 0
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 180.000000000000000000
+    Viewport.Height = 196.000000000000000000
+  end
+  object btnOk: TCornerButton
+    Position.X = 256.000000000000000000
+    Position.Y = 88.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Ok'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnOkClick
+  end
+  object btnCancel: TCornerButton
+    Position.X = 256.000000000000000000
+    Position.Y = 160.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Cancel'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btnCancelClick
+  end
+end
